@@ -1,0 +1,93 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #222;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #feaa39;
+    background-image: linear-gradient(to right, #feaa39, #F27405, #f205319c);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    padding: 20px 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    justify-content: center;
+}
+
+.form-container h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #d90452;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+#login-form input {
+    line-height: 15px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#login-form input:hover {
+    outline: none;
+    border-radius: 1rem;
+    padding: 10px;
+    border-color: #d90452;
+}
+
+#titulo-checkbox{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+div #erro {
+    color: red;
+}
+
+#login-form button {
+    border: none;
+    background-color: #d90452;
+    color: whitesmoke;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #d9045296;
+}

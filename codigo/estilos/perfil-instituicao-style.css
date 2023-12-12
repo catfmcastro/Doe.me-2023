@@ -1,0 +1,174 @@
+.perfil_container {
+    margin: 20px 0;
+}
+
+/* imagem */
+.perfil_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+.image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#imagem-input {
+    margin-top: 10px;
+}
+
+/* container e informações */
+.perfil_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border-color: white;
+    border-radius: 6px;
+    box-shadow: 1em 2em 2.5em rgba(68, 1, 1, 0.08);
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: fit-content;
+}
+.info-label{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: auto;
+    min-height: 30px;
+}
+.info-text{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 2px;
+    min-height: 30px;
+}
+#descricao{
+    height: auto;
+    min-height: fit-content;
+    min-width: fit-content;
+    resize: vertical;
+    white-space: pre-wrap;
+}
+#descricao[readonly]{
+    border: none;
+    background: transparent;
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+/* inputs */
+.inputs input {
+    width: 100%;
+    height: 23px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d90452;
+    text-align: center;
+    background: transparent;
+}
+.inputs input:focus {
+    border-bottom: 1px solid #000;
+}
+.inputs input[readonly] {
+    border: none;
+}
+
+/* botões */
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #feaa39, #F27405, #f205319c);
+    color: #fff;
+    cursor: pointer;
+}
+.buttons button:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1300px) {
+    .perfil_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-top: 150px;
+    }
+
+    .labels {
+        display: none;
+    }
+}
+
+#lista-imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.doacaoo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.vans {
+
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.profileee {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: ffff;
+    width: 400px;
+    height: 240px;
+    margin: 20px;
+}
+
+.notaa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.estrela {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.post-container{
+    margin: 0 auto;
+}
+
+#criar-titulo{
+    text-align: center;
+    margin: 20px;
+}
+
+input{
+    border-radius: 6px;
+    border-style: hidden;
+}
+
+textarea{
+    border-radius: 6px;
+    border-style: hidden;
+}
+
+.Publicar{
+    background-color: #fea939;
+        background-image: linear-gradient(to right,#feaa39,#F27405 ,#f205319c);
+        width: 200px;
+        font-size: 30px;
+        margin-bottom: 20px;
+}
+
+.fotoo{
+    display: flex;
+    justify-content: center;
+}

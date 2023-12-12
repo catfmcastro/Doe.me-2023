@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../estilos/login-style.css">
+</head>
+
+<body>
+  <div class="form-container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <div class="input-box">
+        <label for="email">Email:</label>
+        <input type="text" id="email" required>
+      </div>
+
+      <div class="input-box">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required>
+      </div>
+
+      <div id="erro"></div><br>
+
+      <h4 id="titulo-checkbox">Tipo de Usuário:<h4>
+      <label for="inst">Instituição</label>
+      <input type="radio" id="tipos" name="tipos" value="instituição"><br>
+      <label for="user">Usuário</label>
+      <input type="radio" id="tipos" name="tipos" value="usuário"><br><br>
+
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+  <script src="../scripts/login.js"></script>
+</body>
+
+</html>

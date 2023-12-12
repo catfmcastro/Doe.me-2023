@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Instituição</title>
+    <link rel="stylesheet" href="../estilos/cadastro-style.css">
+</head>
+
+<body>
+    <!--Conteúdo-->
+    <div class="container">
+        <!--Imagem do Formulário-->
+        <div class="img">
+            <img src="../imagens/cadastro.svg">
+        </div>
+        <!--Formulário-->
+        <div class="form">
+            <form id="formulario">
+                <div class="header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="../paginas/login.html">Log-in</a></button>
+                    </div>
+                </div>
+                <!--Inputs do Formulário-->
+                <div class="input-group">
+
+                    <!--Nome-->
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <!--Email-->
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <!--Telefone-->
+                    <div class="input-box">
+                        <label for="tel">Telefone</label>
+                        <input id="tel" type="tel" name="tel" placeholder="Digite seu telefone" required>
+                    </div>
+
+                    <!--CNPJ-->
+                    <div class="input-box">
+                        <label for="cnpj">CNPJ</label>
+                        <input id="cnpj" type="text" name="cnpj" placeholder="Digite seu CNPJ" required>
+                    </div>
+
+                    <!--CEP-->
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" name="cep" placeholder="Digite seu CEP" required>
+                    </div>
+
+                    <!--Endereço-->
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Digite seu Endereço" required>
+                    </div>
+
+                    <!--Cidade-->
+                    <div class="input-box">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" name="cidade" placeholder="Digite sua Cidade" required>
+                    </div>
+
+                    <!--Estado-->
+                    <div class="input-box">
+                        <label for="estado">Estado</label>
+                        <input id="estado" type="text" name="estado" placeholder="Digite seu Estado" required>
+                    </div>
+
+                    <!--Complemento-->
+                    <div class="input-box">
+                        <label for="complemento">Complemento</label>
+                        <input id="complemento" type="number" name="complemento" placeholder="Digite o complemento"
+                            required>
+                    </div>
+
+                    <!--Senha-->
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <!--Confirmar Senha-->
+                    <div class="input-box">
+                        <label for="passconfirmation">Confirme sua senha</label>
+                        <input id="passconfirmation" type="password" name="passconfirmation"
+                            placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+
+                <!--Botão de registro-->
+                <div class="register-button">
+                    <input id="submit" type="submit" value="Registrar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../scripts/cadastro-instituicao.js"></script>
+</body>
+
+</html>

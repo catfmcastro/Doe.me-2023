@@ -1,0 +1,25 @@
+#commentForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#commentForm input,textarea{
+    width: 30%;
+}
+
+#comments button{
+    font-size: 20px;
+    border: none;
+    margin-left: 18px;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: #feaa39;
+    background-image: linear-gradient(to right, #feaa39, #F27405, #f205319c);
+    color: #fff;
+    cursor: pointer;
+}
+
+#comments button:hover{
+    opacity: 0.7;
+}

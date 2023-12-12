@@ -1,0 +1,17 @@
+#dadosperfil{
+    display: flex;
+   text-align: center;
+   margin: 20px;
+   width: 500px;
+   
+ 
+}
+
+
+.meio{
+    display: flex;
+    justify-content: center;
+}
+.end{
+font-weight: bold;
+}

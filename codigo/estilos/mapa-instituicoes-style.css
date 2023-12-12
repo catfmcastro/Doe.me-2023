@@ -1,0 +1,133 @@
+/** Caixa de Busca */
+aside {
+    margin: 20px 200px;
+}
+
+aside h3 {
+    margin: 18px;
+    font-style: oblique;
+    color: #D90452;
+}
+
+.caixapesquisa {
+    max-width: 400px;
+    width: 100%;
+}
+
+.caixapesquisa .barraPesquisa {
+    position: relative;
+    height: 40px;
+    max-width: 380px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(57, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.barraPesquisa input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    padding-left: 20px ;
+    font-size: 15px;
+}
+
+.barraPesquisa button {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    background: #feaa39;
+    color: #000;
+    border-radius: 0 25px 25px 0;
+}
+/** Caixa de Busca */
+
+/* Responsividade da caixa de pesquisa */
+@media screen and (max-width: 1024px ) {
+    aside {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 480px ) {
+    form {
+        width: 75%;
+    }
+}
+/* Responsividade da caixa de pesquisa */
+
+/*! Mapa */
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+#map {
+    width: 1024px;
+    height: 624px;
+}
+/*! Mapa */
+
+/* Responsividade do mapa */
+@media screen and (max-width: 1024px) {
+    #map {
+        width: 768px;
+        height: 496px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #map {
+        width: 667px;
+        height: 368px;
+    }
+}
+@media screen and (max-width: 667px) {
+    #map {
+        width: 480px;
+        height: 240px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #map {
+        width: 320px;
+        height: 200px;
+    }
+}
+/* Responsividade do mapa */
+
+/*? Estilos do pop-up do mapa */
+.popup {
+    font-size: 1.1rem;
+    font-family: "Poppins";
+}
+
+.popup h3 {
+    text-align: center;
+}
+
+.popup img {
+    width: 150px;
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    margin-bottom: 2px;
+    padding: 2px;
+}
+/*? Estilos do pop-up do mapa */
